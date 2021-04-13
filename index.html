@@ -12,22 +12,38 @@
     <title>House To Rest</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <ul>
-                    <a href="#"><li><i class="fas fa-map-marker-alt"></i></li></a>
-                    <a href="#"><li>Patashule</li></a>
+    <div class="container">
+    <header class="row">
+        <nav class="col bg-danger">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                <ul class="d-flex list-deco justify-content-center pt-2">
+                    <a href="#" class="text-white"><li><i class="fas fa-map-marker-alt fa-2x"></i></li></a>
+                    <a href="#" class="ps-3 text-white"><li>Patashule</li></a>
                 </ul>
             </div>
-            <div class="right-nav">
-                <a href="#"><li>Houses</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Blog</li></a>
-                <a href="#"><li>More</li></a>
+
+            <div class="d-md-none d-sm-block  col-12 col-md-3 list-deco">
+                <ul class="d-flex justify-content-center">
+                <a href="#" class="text-white"><li><i class="fas fa-search"></i></li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-user"></i></li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-wifi"></i></li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-bars"></i></li></a>
+            </ul>
+            </div>
+
+            <div class="d-sm-none d-md-block col-md-9 list-deco">
+                <ul class="d-flex">
+                <a href="#" class="text-white"><li><i class="fas fa-search"></i> Houses</li></a>
+                <a href="#" class="text-white"><li><i class="fas fa-user"></i> About</li></a>
+                <a href="#" class="text-white"><li><i class="fas fa-wifi"></i> Blog</li></a>
+                <a href="#" class="text-white"><li><i class="fas fa-bars"></i> More</li></a>
+            </ul>
+            </div>
             </div>
         </nav>
-        <div>
+        <div class="background-image position-relative">
+            <div class="position-absolute top-50 start-0">
             <h1>PATASHULE... YOUR GATEWAY TO HOUSES IN CAMEROON</h1>
             <div>
                 <form>
@@ -38,11 +54,13 @@
             </div>
             <div>How It Works</div>
         </div>
+        </div>
     </header>
 
-    <main>
-        <div class="upper-main">
-            <div>
+    <main class="row">
+        <div class="col upper-main">
+            <div class="row">
+            <div class="col">
                 <div class="icon">
 
                 </div>
@@ -57,7 +75,7 @@
                 
             </div>
 
-            <div>
+            <div class="col">
                 <div class="icon">
 
                 </div>
@@ -71,8 +89,9 @@
                 </div>
                 
             </div>
-
-            <div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <div class="icon">
 
                 </div>
@@ -87,7 +106,7 @@
                 
             </div>
 
-            <div>
+            <div class="col">
                 <div class="icon">
 
                 </div>
@@ -102,6 +121,7 @@
                 
             </div>
         </div>
+        </div>
         <div class="lower-main">
             <div class="container">
                 <div>
@@ -109,25 +129,28 @@
                         <h3>Over 10,000 instituitions registered with us</h3>
                         <p>Find an institution by using our filtered search engine</p>
                         <p class="button-link">Find a House</p>
+                        <img src="https://ocscdn.azureedge.net/TX4IL/General%20Photos/efcae2cf-9b0f-4127-ac6e-5239e63807be.jpg" alt="">
                     </div>
 
                     <div>
                         <h3>No need to get into traffic to find a institution in your country</h3>
                         <p>Just press or click on the search button and you're all set</p>
                         <p class="button-link">Find a House near your location</p>
+                        <img src="https://www.expat.com/upload/housing/672855/1614450075478_3014882-full_size_3x2-t1614450511.jpg" alt="">
                     </div>
 
                     <div>
                         <h3>Anytime, Anywhere, Any way!</h3>
                         <p>Very convenient platform that cut across any device, including our mobile ready web app
                             and our mobile app comming soon to your app store</p>
+                            <img src="images/phone-location-4.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </main>
     
-    <footer>
+    <footer class="row">
         <div class="upper-footer">
             <div>
                 <nav>
@@ -174,7 +197,9 @@
             </div>
         </div>
     </footer>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
 </body>
 </html>

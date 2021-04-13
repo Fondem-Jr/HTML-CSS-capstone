@@ -46,3 +46,20 @@ button {
     border-left: none; /* Prevent double borders */
     cursor: pointer;
   }
+
+  /* header */ 
+.background-image {
+  background-image: url(https://www.expat.com/images/destinations-pictures/cameroon-hero_size-t1448621766.jpg);
+  height: 450px;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.list-deco a {
+  text-decoration: none;
+  list-style: none; 
+}
+
+ul li {
+  display: inline;
+}
