@@ -98,3 +98,31 @@ ul li {
 .main-header {
   text-align: center;
 } 
+
+.main-background-color1 {
+ background-color: coral;
+}
+
+.main-background-color2 {
+  background-color: lightslategrey;
+ }
+
+ .main-background-color3 {
+  background-color: steelblue;
+ }
+
+ /* .art-main {
+   text-align: center;
+ } */
+
+.button-link {
+  color: coral;
+  background-color: white;
+  text-align: center;
+ }
+
+.button-link1 {
+  color: lightslategray;
+  background-color: white;
+  text-align: center;
+ }
