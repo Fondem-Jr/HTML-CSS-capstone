@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>House To Rest</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <header class="row">
+        <nav class="col bg-danger">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                <ul class="d-flex list-deco justify-content-center pt-2 float-md-start">
+                    <a href="#" class="text-white"><li><i class="fas fa-map-marker-alt fa-2x"></i></li></a>
+                    <a href="#" class="ps-3 text-white"><li>Patashule</li></a>
+                </ul>
+            </div>
+            
+            <div class="col-12 col-md-9 list-deco">
+                <ul class="d-flex justify-content-center justify-content-md-around float-lg-end pt-2">
+                <a href="#" class="text-white"><li><i class="fas fa-search"></i></li></a>
+                <a href="#" class="text-white d-none d-lg-block"><li> Houses</li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-user"></i></li></a>
+                <a href="#" class="text-white d-none d-lg-block"><li> About</li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-wifi"></i></li></a>
+                <a href="#" class="text-white d-none d-lg-block"><li> Blog</li></a>
+                <a href="#" class="text-white ps-4"><li><i class="fas fa-bars"></i></li></a>
+                <a href="#" class="text-white d-none d-lg-block"><li> More</li></a>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mb-5">
+        <div class="container-fluid position-relative form-container mt-5">
+            <div class="position-absolute top-50 start-40">
+                <h3>Filter by Name, Country, Purpose, Type, Gender..</h3>
+                <form class="d-flex flex-row justify-content-center" action="/action_page.php"> 
+                    <div class="d-flex flex-column me-1">
+                        <label for="house">Name:</label>
+                        <input class="Name" type="text" id="house" name="house">
+                    </div>
+                    <div class="d-flex flex-column me-1">
+                    <label for="country">country:</label>
+                        
+                            <select id="country" name="country">
+                                <option value=""></option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Mexico">Mexico</option>
+                            </select>
+                        </div>
+
+                        <div class="d-flex flex-column me-1">
+                            <label for="purpose">Purpose:</label>
+                            <select id="purpose" name="purpose">
+                            <option value=""></option>
+                                <option value="For Rent">For Rent</option>
+                                <option value="For Sale">For Sale</option>
+                                <option value="Holidays Rental">Holidays Rental</option>
+                            </select>
+                        </div>
+                        <div class="d-flex flex-column me-1">
+                            <label for="type">Type:</label>
+                            <select id="type" name="type">
+                            <option value=""></option>
+                                <option value="Houses">Houses</option>
+                                <option value="Flats">Flats</option>
+                                <option value="Apartments">Apartments</option>
+                                <option value="Rooms">Rooms</option>
+                                <option value="parking spaces">Parking Spaces</option>
+                                <option value="storage">Storage</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        
+                            <div class="d-flex flex-column me-1">
+                                <label for="gender">Gender:</label>
+                                <select id="gender" name="gender">
+                                    <option value=""></option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    
+                                </select>
+                                </div>
+                                
+                                <label for=""></label>
+                                <input class="submit-but me-1" type="submit" value="Submit">
+                                    <div class="filter">
+                                        <input type="checkbox" id="clear-filter" name="clear-filter" value="clear-filter">
+                                    <label for="clear-filter"> Clear filter</label>
+                                    </div>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    
+    <footer class="container-fluid">
+    <div class="row bg-dark">
+        <div class="upper-footer">
+            <div class="footer-size home-link home-link1  home-link2 pb-2">
+                <br>
+                <nav class="upper-footer home-link">
+                    <a href="#" class="text-white pt-2 upper-footer-nav"><li>Home</li></a>
+                    <a href="#" class="text-white pt-2 upper-footer-nav"><li>Search</li></a>
+                    <a href="#" class="text-white pt-2 upper-footer-nav"><li>About Us</li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav home-link1"><li>Advertise</li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav pb-2"><li><i class="fas fa-map-marker-alt"></i></li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav home-link"><li>Facebook</li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav"><li>Twitter</li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav"><li>BLOG</li></a>
+                    <a href="#"class="text-white pt-2 upper-footer-nav"><li>GOOGLE+</li></a>
+                </nav>
+            </div>
+
+        </div>
+        <div class="row middlefooter text-white pt-3 ps-5">
+            <div class="col-md-4">
+                <h3 class="middlefooter-header">Subscribe</h3>
+            <form class="form-style" action="action_page.php">
+                <input type="text" placeholder="email@example.com" name="search">
+                <button type="submit">SEND</i></button>
+              </form>
+            </div>
+            
+            <div class="col-md-4 pt-3">
+                <h3 class="middlefooter-header">CONTACT</h3>
+                <p>We are located at Kigali road, Kicukiro District. You can contact us at <a href="#">fondemjunior@yahoo.com</a></p>
+            </div>
+            <div class="col-md-4 pt-3">
+                <h3 class="middlefooter-header">ABOUT</h3>
+                <P>We provide the bright future to the students. For more information, check <a href="#">Here!!!</a> for reviews</P>
+            </div>
+        </div>
+        <div class="lower-footer text-white">
+            <div class="row">
+                <ul class="col-lg-4">
+                    <li><a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fas fa-paper-plane"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <div class="col-lg-8 ps-2"><p class="float-lg-end">© 2020 This site is designed as part of the capstone asignment at microverseinc.</p></div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+</html>

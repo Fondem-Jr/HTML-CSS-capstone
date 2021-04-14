@@ -201,8 +201,12 @@ ul li {
   }
 
   .middlefooter-header {
-    text-align: center!;
+    text-align: center;
   }
+}
+
+select {
+  padding: 4px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -263,3 +267,24 @@ ul li {
   }
 }
 
+
+/* list of items file */
+
+.form-container {
+  height: 300px;
+  background-color: red;
+}
+
+.submit-but {
+  height: 2rem;
+  margin-top: auto;
+  color: white;
+  background-color: #0b7dda;
+}
+
+.filter {
+  margin-top: 1.3rem;
+  color: white;
+  background-color: goldenrod;
+  height: 2rem;
+}
