@@ -12,21 +12,22 @@ form.form-style input[type=text] {
   background: #f1f1f1;
 }
 
-form.form-style-1 input[type=text] {
+/* form.form-style-1 input[type=text] {
   padding: 8px;
   font-size: 17px;
   border: 1px solid grey;
-  width: 80%;
+  width: 98%;
   background: #f1f1f1;
   border-radius: 5px;
-}
+  margin-left: 1rem;
+} */
 
 
 /* Style the submit button */
 form.form-style button {
   float: left;
   margin-top: 0%;
-  width: 10%;
+  width: 15%;
   padding: 10px;
   background-color: darkslategrey;
   color: white;
@@ -48,26 +49,26 @@ form.form-style::after {
 }
 
 
-button {
-    width: 80%;
+/* button {
+    width: 98%;
     padding: 8px;
     background: #dc3545;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
+    border-left: none; 
     cursor: pointer;
     border-radius: 5px;
     margin-top: 1rem;
+    margin-left: 1rem;
   }
 
   .form-style-1 {
     background-color: silver;
-    width: 90%;
-    text-align: center;
+    width: 98%;
     padding-bottom: 1rem;
     border-radius: 7px;
-  }
+  } */
 
   /* header */ 
 .background-image {
@@ -156,3 +157,109 @@ ul li {
 .lower-footer {
   background-color: darkslategrey;
 }
+
+ @media only screen and (min-width: 768px) {
+  .box-works {
+    margin-left: 15rem;
+  }
+
+  .upper-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .home-link {
+    border-top: 0;
+  }
+  
+  .home-link1 {
+    border-bottom: 0;
+  }
+
+  .home-link2 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 1rem;
+  }
+
+  .upper-footer-nav {
+    padding-bottom: 1rem;
+  }
+
+  form.form-style input[type=text] {
+    padding: 7px;
+    font-size: 10px;
+    width: 70%;
+  }
+
+  form.form-style button {
+    width: 25%;
+    padding: 7px;
+    font-size: 10px;
+  }
+
+  .middlefooter-header {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .form-inline button {
+    background-color: orangered;
+  }
+} 
+
+.form-inline {  
+  background-color: gray;
+  width: 90%;
+  margin: auto;
+}
+
+ .form-inline1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+ }
+
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 70%;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .form-inline input {
+    margin: 10px 0;
+    width: 95%;
+  }
+  
+  .form-inline1 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-inline button {
+    background-color: orangered;
+    width: 95%;
+  }
+}
+
