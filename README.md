@@ -31,7 +31,7 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Fondem Junior**
 
 - GitHub: [@githubhandle](https://github.com/Fondem-Jr/)
 - Twitter: [@twitterhandle](https://twitter.com/OpportunistZeus)
