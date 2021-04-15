@@ -4,7 +4,7 @@
 
 > A website made up of three webpages, the index, list of items and detail page. This project helps us practise our skills on float, flex, grid, bootstrap.  
 
-![screenshot](images/.png)
+![screenshot](images/main_page.png)
 
 ![screenshot](images/List_of_items.png)
 
