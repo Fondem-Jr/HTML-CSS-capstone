@@ -12,7 +12,6 @@ form.form-style input[type=text] {
   background: #f1f1f1;
 }
 
-
 /* Style the submit button */
 form.form-style button {
   float: left;
@@ -38,7 +37,8 @@ form.form-style::after {
   display: table;
 }
 
-  /* header */ 
+/* header */
+
 .background-image {
   background-image: url(https://www.expat.com/images/destinations-pictures/cameroon-hero_size-t1448621766.jpg);
   height: 600px;
@@ -72,33 +72,33 @@ ul li {
 
 .main-header {
   text-align: center;
-} 
+}
 
 .main-background-color1 {
- background-color: coral;
+  background-color: coral;
 }
 
 .main-background-color2 {
   background-color: lightslategrey;
- }
+}
 
- .main-background-color3 {
+.main-background-color3 {
   background-color: steelblue;
- }
+}
 
 .button-link {
   color: coral;
   background-color: white;
   text-align: center;
- }
+}
 
 .button-link1 {
   color: lightslategray;
   background-color: white;
   text-align: center;
- }
+}
 
- /* footer */
+/* footer */
 
 .upper-footer {
   display: flex;
@@ -137,7 +137,7 @@ ul li {
   .home-link {
     border-top: 0;
   }
-  
+
   .home-link1 {
     border-bottom: 0;
   }
@@ -158,6 +158,15 @@ ul li {
     width: 70%;
   }
 
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
   form.form-style button {
     width: 25%;
     padding: 7px;
@@ -173,8 +182,7 @@ select {
   padding: 4px;
 }
 
-
-.form-inline {  
+.form-inline {
   background-color: gray;
   width: 70%;
   margin: auto;
@@ -195,22 +203,12 @@ select {
   width: 80%;
 }
 
-.form-inline button {
-  padding: 10px 20px;
-  background-color: cornflowerblue;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
- 
-}
-
 @media (max-width: 768px) {
   .form-inline input {
     margin: 10px 0;
     width: 95%;
   }
-  
+
   .form-inline1 {
     flex-direction: column;
     align-items: stretch;
@@ -230,7 +228,7 @@ select {
   .form-inline input {
     width: 85%;
   }
-} 
+}
 
 /* list of items file */
 
