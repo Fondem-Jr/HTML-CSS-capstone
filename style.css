@@ -3,7 +3,7 @@
 }
 
 /* Style the search field */
-form.form-style input[type=text] {
+form.form-style input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -152,7 +152,7 @@ ul li {
     padding-bottom: 1rem;
   }
 
-  form.form-style input[type=text] {
+  form.form-style input[type="text"] {
     padding: 7px;
     font-size: 10px;
     width: 70%;
@@ -234,4 +234,23 @@ select {
 
 .card-b-color {
   background-color: coral;
+}
+
+/* detail page */
+
+.detail-border {
+  border: 1px solid darkgrey;
+}
+
+.detail-link {
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more-details {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
