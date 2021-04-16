@@ -46,6 +46,11 @@ form.form-style::after {
   background-size: cover;
 }
 
+.background-search-header {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
   list-style: none;
@@ -158,52 +163,61 @@ ul li {
     width: 70%;
   }
 
-  .form-inline button {
+  .button-flex {
+    flex-direction: row;
+    border: 5px solid red;
+    flex-wrap: nowrap;
+  }
+
+  .background-search-header {
+    display: flex;
+  }
+}
+
+/* .form-inline button {
     padding: 10px 20px;
     background-color: cornflowerblue;
     border: 1px solid #ddd;
     color: white;
     cursor: pointer;
     text-transform: uppercase;
-  }
+  } */
+form.form-style button {
+  width: 25%;
+  padding: 7px;
+  font-size: 10px;
+}
 
-  form.form-style button {
-    width: 25%;
-    padding: 7px;
-    font-size: 10px;
-  }
-
-  .middlefooter-header {
-    text-align: center;
-  }
+.middlefooter-header {
+  text-align: center;
 }
 
 select {
   padding: 4px;
 }
 
-.form-inline {
+/* .form-inline {
   background-color: gray;
   width: 70%;
   margin: auto;
-}
+} */
 
-.form-inline1 {
+/* .form-inline1 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-}
+} */
 
-.form-inline input {
+/* .form-inline input {
   vertical-align: middle;
   margin: 0 0 0 0;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
   width: 80%;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .form-inline input {
     margin: 10px 0;
     width: 95%;
@@ -218,9 +232,9 @@ select {
     background-color: orangered;
     width: 95%;
   }
-}
+} */
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 1024px) {
   .form-inline button {
     background-color: orangered;
   }
@@ -228,7 +242,7 @@ select {
   .form-inline input {
     width: 85%;
   }
-}
+} */
 
 /* list of items file */
 
