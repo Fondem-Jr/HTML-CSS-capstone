@@ -95,6 +95,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- This design is by (insert artist here),"
 - Microverse
 - W3schools
 - Freecodecamp
@@ -102,6 +103,9 @@ Give a ⭐️ if you like this project!
 - Font Awesome
 - Odin project
 - Getbootstrap
+
+## Credit
+> I was delighted to be asked to build this project based on the template, which is from the original project, Directory of Schools, designed by Mathew Njuguna and others on Behance.
 
 
 ## 📝 License
