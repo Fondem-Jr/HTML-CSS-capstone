@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>List of Items</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <header class="row">
+        <nav class="col bg-danger">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                <ul class="d-flex list-deco justify-content-center pt-2 float-md-start">
+                  <li class="pt-2"><a href="index.html" class="text-white"><i class="fas fa-map-marker-alt fa-2x"></i></a></li>
+                  <li> <a href="index.html" class="ps-3 text-white">Junbelle</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-12 col-md-9 list-deco">
+                <ul class="d-flex justify-content-center justify-content-md-around float-lg-end pt-2">
+                  <li><a href="#" class="text-white pe-1"><i class="fas fa-search"></i></a></li>
+                  <li><a href="#" class="text-white d-none d-lg-block"> Houses</a></li>
+                  <li><a href="#" class="text-white ps-4 pe-1"><i class="fas fa-user"></i></a></li>
+                  <li><a href="index.html" class="text-white d-none d-lg-block"> About</a></li>
+                  <li><a href="#" class="text-white ps-4 pe-1"><i class="fas fa-wifi"></i></a></li>
+                  <li><a href="#" class="text-white d-none d-lg-block"> Blog</a></li>
+                  <li><a href="#" class="text-white ps-4 pe-1"><i class="fas fa-bars"></i></a></li>
+                  <li><a href="#" class="text-white d-none d-lg-block"> More</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mb-5">
+        <form class="container-fluid p-4 text-grey bg-light">
+            <h2 class="text-center text-muted fs-5">Filter by Name, Country, Purpose, Type, Gender..</h2>
+            <div class="inputs">
+              <div class="input-1 d-flex flex-wrap">
+                <div class="d-flex flex-column m-1">
+                  <label>Name*</label>
+                  <input type="text">
+                </div>
+                <div class="d-flex flex-column m-1">
+                  <label>Country:</label>
+                  <select class="p-1">
+                    <option value="" disabled="" selected="">select a country</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Mexico">Mexico</option>
+                  </select>
+                </div>
+                <div class="d-flex flex-column m-1">
+                    <label>Purpose:</label>
+                    <select class="p-1">
+                        <option value="" disabled="" selected="">Give your Purpose</option>
+                        <option value="For Rent">For Rent</option>
+                        <option value="For Sale">For Sale</option>
+                        <option value="Holidays Rental">Holidays Rental</option>
+                    </select>
+                  </div>
+                  <div class="d-flex flex-column m-1">
+                    <label>Type:</label>
+                    <select class="p-1">
+                      <option value="" disabled="" selected="">select a type</option>
+                        <option value="Houses">Houses</option>
+                        <option value="Flats">Flats</option>
+                        <option value="Apartments">Apartments</option>
+                        <option value="Rooms">Rooms</option>
+                        <option value="parking spaces">Parking Spaces</option>
+                        <option value="storage">Storage</option>
+                        <option value="others">Others</option>
+                    </select>
+                  </div>
+                  <div class="d-flex flex-column m-1">
+                    <label>Gender:</label>
+                    <select class="p-1">
+                    <option value="" disabled="" selected="">Give your Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    </select>
+                  </div>
+                <div class="m-1 pt-4 d-flex flex-column">
+                    <div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn bg-primary text-white">Search</button>
+                        <button type="submit" class="btn bg-warning  text-white">Clear filter</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="container py-4">
+            <h5 class="my-3 text-muted text-center">Search Results Found 7 house(s)</h5>
+            <div class="row">
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card">
+                    <a href="details.html" class="text-decoration-none">
+                    <img src="images/house1.jpg" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                      <p class="card-text m-0 text-white">Location: Yaounde</p>
+                      <p class="card-text m-0 text-white">Type: Appartments</p>
+                      <p class="card-text m-0 text-white">Available: 30</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card">
+                    <a href="details.html" class="text-decoration-none">
+                    <img  src="images/house2.jpg" class="card-img-top" alt="House To Rent">
+                    <div class="card-body card-b-color">
+                      <p class="card-text m-0 text-white">Location: Bonamossadi</p>
+                      <p class="card-text m-0 text-white">Type: Flat</p>
+                      <p class="card-text m-0 text-white">Available: 1</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card"><a href="details.html" class="text-decoration-none">
+                    <img src="images/house8.jpg" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                        <p class="card-text m-0 text-white">Location: Bonaprison</p>
+                        <p class="card-text m-0 text-white">Type: Room</p>
+                        <p class="card-text m-0 text-white">Available: 50</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card"><a href="details.html" class="text-decoration-none">
+                    <img src="images/house4.jpg" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                        <p class="card-text m-0 text-white">Location: Bonamossadi</p>
+                        <p class="card-text m-0 text-white">Type: Room</p>
+                        <p class="card-text m-0 text-white">Available: 25</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card"><a href="details.html" class="text-decoration-none">
+                    <img src="images/house5.jpg" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                        <p class="card-text m-0 text-white">Location: Bastos</p>
+                        <p class="card-text m-0 text-white">Type: House</p>
+                        <p class="card-text m-0 text-white">Available: 5</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card"><a href="details.html" class="text-decoration-none">
+                    <img src="images/house6.jpg" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                        <p class="card-text m-0 text-white">Location: Bonamossadi</p>
+                        <p class="card-text m-0 text-white">Type: Appartment</p>
+                        <p class="card-text m-0 text-white">Available: 100</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 card-results my-2">
+                <div class="card"><a href="details.html" class="text-decoration-none">
+                    <img src="images/house7.webp" class="card-img-top"  alt="House To Rent">
+                    <div class="card-body card-b-color">
+                        <p class="card-text m-0 text-white">Location: Bonamossadi</p>
+                        <p class="card-text m-0 text-white">Type: Flat</p>
+                        <p class="card-text m-0 text-white">Available: 1</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    
+    <footer class="container">
+      <div class="row bg-dark">
+          <section class="upper-footer">
+              <div class="footer-size home-link home-link1  home-link2 pb-2">
+                  <br>
+                  <ul class="upper-footer home-link">
+                      <li><a href="index.html" class="text-white pt-2 upper-footer-nav">Home</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav">Search</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav">About Us</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav home-link1">Advertise</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav pb-2"><i class="fas fa-map-marker-alt"></i></a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav home-link">Facebook</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav">Twitter</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav">BLOG</a></li>
+                      <li><a href="#" class="text-white pt-2 upper-footer-nav">GOOGLE+</a></li>
+                  </ul>
+              </div>
+  
+          </section>
+          <section>
+          <div class="row middlefooter text-white pt-3 ps-5">
+              <div class="col-md-4">
+                  <h3 class="middlefooter-header">Subscribe</h3>
+              <form class="form-style" action="action_page.php">
+                  <input type="text" placeholder="email@example.com" name="search">
+                  <button type="submit">SEND</button>
+                </form>
+              </div>
+              
+              <div class="col-md-4 pt-3">
+                  <h3 class="middlefooter-header">CONTACT</h3>
+                  <p>We are located at Chapelle Messa, Yaounde. You can contact us at <a href="#">fondemjunior@yahoo.com</a></p>
+              </div>
+              <div class="col-md-4 pt-3">
+                  <h3 class="middlefooter-header">ABOUT</h3>
+                  <P>We provide the easiest way to find accommodation and on time. For more information, check <a href="#">Here!!!</a> for reviews</P>
+              </div>
+          </div>
+          </section>
+          <section>
+          <div class="lower-footer text-white">
+              <div class="row">
+                  <ul class="col-lg-3 ps-3">
+                      <li><a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#" class="text-white"><i class="fas fa-paper-plane"></i></a></li>
+                      <li><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                  <div class="col-lg-8 ps-3"><p class="float-lg-end">© 2021 This site is designed as part of the capstone asignment at microverse.</p></div>
+              </div>
+          </div>
+          </section>
+      </div>
+  </footer>
+  </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>

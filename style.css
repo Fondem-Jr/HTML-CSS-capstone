@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.form-style input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.form-style button {
+  float: left;
+  margin-top: 0%;
+  width: 25%;
+  padding: 10px;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.form-style button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.form-style::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* header */
+
+.background-image {
+  background-image: url(https://www.expat.com/images/destinations-pictures/cameroon-hero_size-t1448621766.jpg);
+  height: 600px;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.background-search-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-deco a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+.box-works {
+  background-color: silver;
+  width: 8rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+/* main content */
+
+.main-header {
+  text-align: center;
+}
+
+.main-background-color1 {
+  background-color: coral;
+}
+
+.main-background-color2 {
+  background-color: lightslategrey;
+}
+
+.main-background-color3 {
+  background-color: steelblue;
+}
+
+.button-link {
+  color: coral;
+  background-color: white;
+  text-align: center;
+}
+
+.button-link1 {
+  color: lightslategray;
+  background-color: white;
+  text-align: center;
+}
+
+/* footer */
+
+.upper-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-link {
+  border-top: 1px solid white;
+}
+
+.home-link1 {
+  border-bottom: 1px solid white;
+}
+
+.footer-size {
+  width: 90%;
+}
+
+.lower-footer {
+  background-color: darkslategrey;
+}
+
+@media only screen and (min-width: 768px) {
+  .box-works {
+    margin-left: 15rem;
+  }
+
+  .upper-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .home-link {
+    border-top: 0;
+  }
+
+  .home-link1 {
+    border-bottom: 0;
+  }
+
+  .home-link2 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 1rem;
+  }
+
+  .upper-footer-nav {
+    padding-bottom: 1rem;
+  }
+
+  form.form-style input[type="text"] {
+    padding: 7px;
+    font-size: 10px;
+    width: 70%;
+  }
+
+  .button-flex {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .background-search-header {
+    display: flex;
+  }
+
+  form.form-style button {
+    width: 30%;
+    padding: 7px;
+    font-size: 10px;
+  }
+}
+
+.middlefooter-header {
+  text-align: center;
+}
+
+select {
+  padding: 4px;
+}
+
+/* list of items file */
+
+.card-b-color {
+  background-color: coral;
+}
+
+/* detail page */
+
+.detail-border {
+  border: 1px solid darkgrey;
+}
+
+.detail-link {
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more-details {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
