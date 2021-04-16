@@ -8,7 +8,7 @@ form.form-style input[type="text"] {
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  width: 80%;
+  width: 70%;
   background: #f1f1f1;
 }
 
@@ -16,7 +16,7 @@ form.form-style input[type="text"] {
 form.form-style button {
   float: left;
   margin-top: 0%;
-  width: 15%;
+  width: 25%;
   padding: 10px;
   background-color: darkslategrey;
   color: white;
@@ -172,20 +172,12 @@ ul li {
   .background-search-header {
     display: flex;
   }
-}
 
-/* .form-inline button {
-    padding: 10px 20px;
-    background-color: cornflowerblue;
-    border: 1px solid #ddd;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-  } */
-form.form-style button {
-  width: 25%;
-  padding: 7px;
-  font-size: 10px;
+  form.form-style button {
+    width: 30%;
+    padding: 7px;
+    font-size: 10px;
+  }
 }
 
 .middlefooter-header {
@@ -195,54 +187,6 @@ form.form-style button {
 select {
   padding: 4px;
 }
-
-/* .form-inline {
-  background-color: gray;
-  width: 70%;
-  margin: auto;
-} */
-
-/* .form-inline1 {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-} */
-
-/* .form-inline input {
-  vertical-align: middle;
-  margin: 0 0 0 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  width: 80%;
-} */
-
-/* @media (max-width: 768px) {
-  .form-inline input {
-    margin: 10px 0;
-    width: 95%;
-  }
-
-  .form-inline1 {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .form-inline button {
-    background-color: orangered;
-    width: 95%;
-  }
-} */
-
-/* @media only screen and (min-width: 1024px) {
-  .form-inline button {
-    background-color: orangered;
-  }
-
-  .form-inline input {
-    width: 85%;
-  }
-} */
 
 /* list of items file */
 
