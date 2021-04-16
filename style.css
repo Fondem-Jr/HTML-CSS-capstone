@@ -49,6 +49,7 @@ form.form-style::after {
 .background-search-header {
   display: flex;
   flex-direction: column;
+  padding-top: 10rem;
 }
 
 a {
@@ -165,7 +166,6 @@ ul li {
 
   .button-flex {
     flex-direction: row;
-    border: 5px solid red;
     flex-wrap: nowrap;
   }
 
